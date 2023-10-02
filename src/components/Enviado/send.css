@@ -1,0 +1,40 @@
+.div--send {
+    width: 18.75rem;
+    height: 32.5rem;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 2rem;
+    background-color: #1B21B4;
+    color: whitesmoke;
+    border-radius: .9375rem;
+    font-family: 'Inter', sans-serif;
+    box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.div--send__h1 {
+    width: 14.375rem;
+    height: 3rem;
+    margin-top: 7rem;
+    font-size: 3.25rem;
+    font-weight: 600;
+    line-height: 2.625rem;
+}
+.div--send__div--line {
+    width: 14.375rem;
+    height: .125rem;
+    margin-top: 2.375rem;
+    background-color: whitesmoke;
+}
+.div--send__p {
+    width: 10.625rem;
+    height: 5.5rem;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+}
+
+

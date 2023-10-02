@@ -1,0 +1,16 @@
+.div--loading {
+    width: 18.75rem;
+    height: 32.5rem;
+    position: absolute;
+    margin: 0 auto;
+    padding-left: 2rem;
+    background-color: #030303;
+    color: whitesmoke;
+    border-radius: .9375rem;
+    font-family: 'Inter', sans-serif;
+    box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}

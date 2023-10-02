@@ -1,0 +1,99 @@
+.section--form {
+    width: 18.75rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    background-color: aquamarine;
+    border-radius: .9375rem;
+}
+.section--form__form {
+    width: 18.75rem;
+    height: 32.5rem;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: .9375rem;
+    box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.section--form__form__div--inputs__h2 {
+    width: auto;
+    height: auto;
+    margin-top: 2rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+    color: #030303;
+}
+.section--form__form__div--inputs__fieldset {
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: .125rem;
+    border: none;
+}
+.section--form__form__div--inputs__fieldset__label {
+    width: 3.875rem;
+    height: 1.75rem;
+    font-family: monospace;
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    color: rgba(0, 0, 0, 0.50) ;
+}
+.section--form__form__div--inputs__fieldset__input {
+    width: 13.75rem;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: .9375rem;
+    border: none;
+    box-shadow: inset 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.section--form__form__div--inputs__fieldset__textarea {
+    width: 13.75rem;
+    height: 9rem;
+    padding: 1rem;
+    border-radius: .9375rem;
+    border: none;
+    box-shadow: inset 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.section--form__form__div--button {
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: .5rem;
+    right: 1rem;
+    bottom: 1rem;
+}
+.section--form__form__div--button__p {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+.section--form__form__div--button__button {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    background-color: #1B21B4;
+    cursor: pointer;
+}
